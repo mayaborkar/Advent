@@ -1,4 +1,4 @@
-f1 = open("./aventlist1.txt", "r")
+f1 = open("adventlist1a.txt", "r")
 mylist = f1.readlines()
 for i in range(0, len(mylist)-1):
     for j in range(i+1, len(mylist)):

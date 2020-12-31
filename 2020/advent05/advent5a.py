@@ -1,4 +1,4 @@
-f1 = open("aventlist5a.txt", "r")
+f1 = open("adventlist5a.txt", "r")
 boarding = f1.readlines()
 seat_rows = []
 seat_columns = []

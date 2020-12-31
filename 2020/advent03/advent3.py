@@ -1,4 +1,4 @@
-f1 = open("aventlist3.txt", "r")
+f1 = open("adventlist4a.txt", "r")
 mylist = f1.readlines()
 totalcount = 0
 validcount = 0

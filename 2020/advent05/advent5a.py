@@ -1,4 +1,5 @@
-f1 = open("adventlist5a.txt", "r")
+# https://adventofcode.com/2020/day/5
+f1 = open("adventlist5.txt", "r")
 boarding = f1.readlines()
 seat_rows = []
 seat_columns = []

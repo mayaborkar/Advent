@@ -1,4 +1,5 @@
-f1 = open("adventlist6a.txt", "r")
+# https://adventofcode.com/2020/day/6
+f1 = open("adventlist6.txt", "r")
 ticket = f1.read()
 groups = ticket.split("\n\n")
 # print(groups)

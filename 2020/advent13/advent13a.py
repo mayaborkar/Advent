@@ -1,3 +1,4 @@
+# https://adventofcode.com/2020/day/13
 f1 = open("adventlist13sample.txt", "r")
 bus = f1.readlines()
 working_bus = []

@@ -1,4 +1,5 @@
-f1 = open("adventlist10a.txt", "r")
+# https://adventofcode.com/2020/day/10
+f1 = open("adventlist10.txt", "r")
 adapter = f1.readlines()
 adapter_charge = []
 for i in range(0, len(adapter)):

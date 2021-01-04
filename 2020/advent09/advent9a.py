@@ -1,3 +1,4 @@
+# https://adventofcode.com/2020/day/9
 def comparing_lists(list1, list2):
     for i in range(0, len(list1)):
         for j in range(0, len(list2)):
@@ -9,7 +10,7 @@ def comparing_lists(list1, list2):
 
 
 # main
-f1 = open("adventlist9a.txt", "r")
+f1 = open("adventlist9.txt", "r")
 encoding = f1.readlines()
 for i in range(0, len(encoding)):
     encoding[i] = int(encoding[i].replace("\n", ''))

@@ -1,4 +1,5 @@
-f1 = open("adventlist2a.txt", "r")
+# https://adventofcode.com/2020/day/2
+f1 = open("adventlist2.txt", "r")
 mylist = f1.readlines()
 for i in range(0, len(mylist)-1):
     for j in range(i+1, len(mylist)):

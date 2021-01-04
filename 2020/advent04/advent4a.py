@@ -1,4 +1,5 @@
-f1 = open("adventlist4a.txt", "r")
+# https://adventofcode.com/2020/day/4
+f1 = open("adventlist4.txt", "r")
 passport_str = f1.read()
 my_passport = passport_str.split("\n\n")
 required_info = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"]

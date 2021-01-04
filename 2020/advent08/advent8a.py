@@ -1,11 +1,11 @@
-f1 = open("adventlist8a.txt", "r")
+# https://adventofcode.com/2020/day/8
+f1 = open("adventlist8.txt", "r")
 gaming = f1.read()
 instruction_set = []
 instruction = []
 instruction_set = gaming.split("\n")
 for i in range(0, len(instruction_set)):
     instruction.append(instruction_set[i].split(" "))
-# print(instruction)
 accumulator = 0
 instruction_index = 0
 while instruction[instruction_index][0] != "RM":

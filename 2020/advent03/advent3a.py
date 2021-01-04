@@ -1,4 +1,5 @@
-f1 = open("adventlist3ab.txt", "r")
+# https://adventofcode.com/2020/day/3
+f1 = open("adventlist3.txt", "r")
 mylist = f1.readlines()
 print(mylist[0])
 print(len(mylist[0][:len(mylist[0])-1]))
@@ -7,9 +8,6 @@ for i in range(0, len(mylist)):
     mylist[i] = mylist[i].replace("\n", "")
     for j in range(0, 7):
         mylist[i] = mylist[i] + mylist[i]
-#  mylist[i] = mylist[i][:len(mylist[i])-1]
-
-print ("hello i am here")
 
 print (len(mylist))
 print (len(mylist[0]))
@@ -45,5 +43,3 @@ for i in range(0, int(len(mylist)/2)+1):
 print ("I am here 21 " + str(counter21))
 
 print ("multiple "+str(counter11 * counter13 * counter15 * counter17 * counter21))
-# 2850751488
-# 3207095424

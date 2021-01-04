@@ -1,15 +1,16 @@
 f1 = open("adventlist3ab.txt", "r")
 mylist = f1.readlines()
-# print (len(mylist))
-# print (len(mylist[0]))
-
+print(mylist[0])
+print(len(mylist[0][:len(mylist[0])-1]))
+print(len(mylist[0].replace("\n", "")))
 for i in range(0, len(mylist)):
-    mylist[i] = mylist[i][:len(mylist[i])-1]
+    mylist[i] = mylist[i].replace("\n", "")
     for j in range(0, 7):
         mylist[i] = mylist[i] + mylist[i]
+#  mylist[i] = mylist[i][:len(mylist[i])-1]
 
 print ("hello i am here")
-#print (mylist)
+
 print (len(mylist))
 print (len(mylist[0]))
 
@@ -35,19 +36,13 @@ counter17 = 0
 for i in range(0, len(mylist)):
     if mylist[i][(i*7)] == "#":
         counter17 = counter17 + 1
-print ("I am here 17 "+ str(counter17))
+print ("I am here 17 " + str(counter17))
 
 counter21 = 0
 for i in range(0, int(len(mylist)/2)+1):
     if mylist[i*2][i] == "#":
         counter21 = counter21 + 1
-print ("I am here 21 "+ str(counter21))
-
-print counter11
-print counter13
-print counter15
-print counter17
-print counter21
+print ("I am here 21 " + str(counter21))
 
 print ("multiple "+str(counter11 * counter13 * counter15 * counter17 * counter21))
 # 2850751488

@@ -19,7 +19,7 @@ for i in range(0, len(boarding)):
     # finding the max seat
     if max_seat < seats[i]:
         max_seat = seats[i]
-# sorts seat numebers in order
+# sorts seat numbers in order
 seats.sort()
 # day 5 part B
 # checking if there is an open seat in between

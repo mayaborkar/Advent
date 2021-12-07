@@ -1,5 +1,4 @@
 # https://adventofcode.com/2021/day/2
-import re
 f1 = open("adventinput2", "r")
 mylist = f1.readlines()
 

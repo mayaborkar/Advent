@@ -4,6 +4,10 @@ def printBoard(board):
         print("Printing next board... ")
         for y in x:
             print(y)
+
+def isWin(board):
+    for i in range(0, len(board)):
+        if board[0][i] + board[0][i] + board[0][i]
 # take out null arrays (RESOLVED)
 # if array starts with 1 digit number delete the null (RESOLVED)
 # not printing last board (RESOLVED)
@@ -24,6 +28,9 @@ for i in range(2, len(mylist)):
         tempBoard.pop()
         newGame.append(tempBoard)
         tempBoard = []
+    for j in range(2, len(tempBoard)):
+        if tempBoard[i] == newGame[j]:
+            newGame[j] = 0
 
 printBoard(newGame)
 

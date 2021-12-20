@@ -5,9 +5,16 @@ def printBoard(board):
         for y in x:
             print(y)
 
+
 def isWin(board):
-    for i in range(0, len(board)):
-        if board[0][i] + board[0][i] + board[0][i]
+    # checking rows
+    for i in range(0, 5):
+        if (board[i][0] + board[i][1] + board[i][2] + board[i][3] + board[i][4] == 0):
+            return True
+    # checking columns
+    for j in range(0, 5):
+        if board[0][j] + board[1][j] + board[2][j] + board[3][j] + board[4][j] == 0:
+            return True
 # take out null arrays (RESOLVED)
 # if array starts with 1 digit number delete the null (RESOLVED)
 # not printing last board (RESOLVED)
@@ -28,10 +35,10 @@ for i in range(2, len(mylist)):
         tempBoard.pop()
         newGame.append(tempBoard)
         tempBoard = []
-    for j in range(2, len(tempBoard)):
-        if tempBoard[i] == newGame[j]:
-            newGame[j] = 0
 
+
+
+isWin(newGame)
 printBoard(newGame)
 
 

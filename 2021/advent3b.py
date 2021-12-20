@@ -29,9 +29,4 @@ for i in range(0, len(mylist[0])-1):
 
 print(int(oxygenRating, 2) * int(co2Rating, 2))
 
-'''
-print(gammaRayString)
-print(epsilonString)
-'''
-
 

@@ -11,11 +11,10 @@ def sumBoard(board, numDrawn):
         for y in x:
             if y != -1:
                 count += int(y)
-    print  int(count) * int(numDrawn)
+    print int(count) * int(numDrawn)
 
 
 def isWin(board, numDrawn):
-    # checking rows
     for i in range(0, len(board)):
         for j in range(0, len(board[i])):
             if int(board[i][j][0]) + int(board[i][j][1]) + int(board[i][j][2]) + int(board[i][j][3]) + int(board[i][j][4]) == -5:
@@ -27,6 +26,7 @@ def isWin(board, numDrawn):
                 sumBoard(board[i], numDrawn)
                 return True
     return False
+
 
 f1 = open("adventinput4.txt", "r")
 mylist = f1.readlines()
@@ -55,7 +55,7 @@ for numDrawn in drawnNumbers:
                 # print (newGame[i][j])
                 if newGame[i][j][k] == numDrawn:
                     newGame[i][j][k] = -1
-    if isWin(newGame, numDrawn) == True:
+    if isWin(newGame, numDrawn):
         print(numDrawn)
         break
 

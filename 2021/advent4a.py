@@ -5,22 +5,28 @@ def printBoard(board):
         for y in x:
             print(y)
 
+def sumBoard(board, numDrawn):
+    count = 0
+    for x in board:
+        for y in x:
+            if y != -1:
+                count += int(y)
+    print  int(count) * int(numDrawn)
 
-def isWin(board):
+
+def isWin(board, numDrawn):
     # checking rows
     for i in range(0, len(board)):
         for j in range(0, len(board[i])):
             if int(board[i][j][0]) + int(board[i][j][1]) + int(board[i][j][2]) + int(board[i][j][3]) + int(board[i][j][4]) == -5:
+                print("the winning board is: " + str(board[i]))
+                sumBoard(board[i], numDrawn)
                 return True
-    # checking columns
-
-    for k in range(0, len(newGame)):
-        for l in range(0, len(newGame[k])):
-            if int(board[k][0][l]) + int(board[k][1][l]) + int(board[k][2][l]) + int(board[k][3][l]) + int(board[k][4][l]) == -5:
+            if int(board[i][0][j]) + int(board[i][1][j]) + int(board[i][2][j]) + int(board[i][3][j]) + int(board[i][4][j]) == -5:
+                print("the winning board is: " + str(board[i]))
+                sumBoard(board[i], numDrawn)
                 return True
-# take out null arrays (RESOLVED)
-# if array starts with 1 digit number delete the null (RESOLVED)
-# not printing last board (RESOLVED)
+    return False
 
 f1 = open("adventinput4.txt", "r")
 mylist = f1.readlines()
@@ -41,17 +47,20 @@ for i in range(2, len(mylist)):
 # ------------------------
 
 for numDrawn in drawnNumbers:
+    print ('Checking for '+str(numDrawn))
     for i in range(0, len(newGame)):
         for j in range(0, len(newGame[i])):
             for k in range(0, len(newGame[i][j])):
                 # print (numDrawn)
-                #print (newGame[i][j])
+                # print (newGame[i][j])
                 if newGame[i][j][k] == numDrawn:
                     newGame[i][j][k] = -1
-    isWin(newGame)
-    if isWin == False:
+    if isWin(newGame, numDrawn) == True:
+        print(numDrawn)
         break
-printBoard(newGame)
+
+# print(numDrawn * )
+# printBoard(newGame)
 
 
 

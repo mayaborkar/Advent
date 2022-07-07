@@ -1,4 +1,3 @@
-
 f1 = open("adventinput25.txt", "r")
 mylist = f1.readlines()
 moveArray = []
@@ -14,7 +13,6 @@ for i in range(0, len(moveArray)):
     if moveArray[i] == ">" and moveArray[i + 1] != ".":
         validmove = False
 
-return validmove
 
 
 print stepCount

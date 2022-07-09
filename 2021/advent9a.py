@@ -15,7 +15,5 @@ def adjacents(i, j):
         adjacent.append(mylist[i][j + 1])
 
 
-
-
 f1 = open("adventinput9.txt", "r")
 mylist = f1.readlines()

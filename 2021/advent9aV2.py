@@ -1,4 +1,5 @@
 # Advent 2021 Day 9
+# on July 10th
 def get_adjacent(i, j, mylist):
     adjacent = []
     if i != 0:

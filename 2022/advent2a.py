@@ -16,7 +16,7 @@ def isDraw(opponent):
         return "Z"
 
 
-f1 = open("2022adventinput2", "r")
+f1 = open("adventinput2", "r")
 mylist = f1.read().replace(' ', "").split("\n")
 
 # auto-points 1-Rock, 2-Paper, 3-Scissors

@@ -16,7 +16,16 @@ def isDraw(opponent):
         return "Z"
 
 
-f1 = open("2022adventinput2", "r")
+def isLose(opponent):
+    if opponent == "A":
+        return "Z"
+    if opponent == "B":
+        return "X"
+    if opponent == "C":
+        return "Y"
+
+
+f1 = open("adventinput2", "r")
 mylist = f1.read().replace(' ', "").split("\n")
 
 # auto-points 1-Rock, 2-Paper, 3-Scissors
@@ -27,8 +36,18 @@ mylist = f1.read().replace(' ', "").split("\n")
 # X - lose, Y- draw, Z - win
 
 sum = 0
+
 print(mylist)
+
 for i in range(0, len(mylist)):
+    print(mylist[i])
+    if mylist[i][1] == "Y":
+        mylist[i] = mylist[i][0] + isDraw(mylist[i][0])
+    elif mylist[i][1] == "Z":
+        mylist[i] = mylist[i][0] + isWin(mylist[i][0])
+    else:
+        mylist[i] = mylist[i][0] + isLose(mylist[i][0])
+    print(mylist[i])
     if isWin(mylist[i][0]) == mylist[i][1]:
         sum += 6
     elif isDraw(mylist[i][0]) == mylist[i][1]:
@@ -40,4 +59,5 @@ for i in range(0, len(mylist)):
         sum += 2
     elif mylist[i][1] == "Z":
         sum += 3
+print(mylist)
 print(sum)

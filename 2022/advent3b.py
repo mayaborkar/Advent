@@ -5,10 +5,11 @@ sum = 0
 first = ""
 middle = ""
 last = ""
-for i in range(0, len(mylist) - 2):
+for i in range(0, len(mylist) - 2, 3):
     first = mylist[i]
     middle = mylist[i+1]
     last = mylist[i+2]
+
     print(first)
     print(middle)
     print(last)
@@ -19,7 +20,7 @@ for i in range(0, len(mylist) - 2):
     elif ord(com_str) <= 90:
         sum += ord(com_str) - 38
         # print(ord(com_str) - 38)
-    i += 3
+    print("i = " + str(i))
     print(com_str)
     print(sum)
 

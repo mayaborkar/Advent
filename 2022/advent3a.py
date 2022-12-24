@@ -11,10 +11,10 @@ sum = 0
 for i in range(0, len(mylist)):
     first = mylist[i][:len(mylist[i])//2]
     last = mylist[i][len(mylist[i])// 2:]
-    # print(first)
+    print(first)
     # print(last)
     com_str = ''.join(set(first).intersection(last))
-    # print(com_str)
+    print("str " + com_str)
     if ord(com_str) >= 97:
         sum += ord(com_str) - 96
         # print(ord(com_str) - 96)

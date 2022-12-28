@@ -36,14 +36,10 @@ for i in range(0, len(myinputlist)):
     print("to " + str(toNumber))
 
 
-
     for k in range(0, move):
-        if(len(boxes[fromNumber]) == 0):
-            print("empty box found")
-            continue
-        else:
-            boxes[toNumber].append(boxes[fromNumber][-1])
-            boxes[fromNumber].pop()
+        boxes[toNumber].append(boxes[fromNumber][-move + k])
+        boxes[fromNumber].pop(-move + k)
+
 
 outStr = ""
 for j in range(0, len(boxes)):

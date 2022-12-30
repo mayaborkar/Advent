@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="Unversionsed files.">
-      <change afterPath="$PROJECT_DIR$/2022/adventinput8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/adventtestinput8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/advent8a.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/advent8a.py" afterDir="false" />
     </list>
@@ -297,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672326169815</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Unversionsed files.">
+      <created>1672334261397</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1672334261397</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,3 +1,21 @@
+def top(treeGrid, row, col):
+    topArray = []
+    for i in range(0, len(treeGrid)):
+        topArray.append(treeGrid[i][col])
+        if(i > row):
+            break
+    return topArray
+
+
+def bottom(treeGrid, row, col):
+    bottomArray = []
+    for i in range(0, len(treeGrid)):
+        bottomArray.append(treeGrid[i][col])
+        if (i < row):
+            break
+    return bottomArray
+
+
 f1 = open("adventtestinput8", "r")
 myinputlist = f1.readlines()
 # look up, down, left, and right for each of the trees
@@ -15,10 +33,10 @@ print(treeGrid)
 for row in range(1, len(treeGrid) - 1):
     for col in range(1, len(treeGrid[row]) - 1):
         currentTree = treeGrid[row][col]
-        top = treeGrid[row - 1][col]
-        bottom = treeGrid[row + 1][col]
-        left = treeGrid[row][col - 1]
-        right = treeGrid[row][col + 1]
+        top = max(top(treeGrid, row, col))
+        bottom = max(bottom(treeGrid, row, col))
+        left = max(treeGrid[row][:col])
+        right = max(treeGrid[row][col + 1:])
         if((currentTree > top) or (currentTree > bottom) or (currentTree > left) or (currentTree > right)):
             count += 1
 print(count)

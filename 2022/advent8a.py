@@ -11,6 +11,7 @@ def bottomFun(treeGrid, row, col):
         bottomArray.append(treeGrid[i][col])
     return bottomArray
 
+
 f1 = open("adventinput8", "r")
 myinputlist = f1.readlines()
 # look up, down, left, and right for each of the trees

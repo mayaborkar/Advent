@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="Unversionsed files.">
+    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="Solved 8a.">
+      <change afterPath="$PROJECT_DIR$/2022/advent10a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/advent9a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/adventinput9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/adventtest9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/advent8a.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/advent8a.py" afterDir="false" />
     </list>
@@ -316,7 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672412621280</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Unversionsed files.">
+      <created>1672507435735</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1672507435735</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Solved 8a.">
+      <created>1672507458523</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1672507458523</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,6 +352,7 @@
     <MESSAGE value="new advent" />
     <MESSAGE value="Advent 2022" />
     <MESSAGE value="Unversionsed files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Unversionsed files." />
+    <MESSAGE value="Solved 8a." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved 8a." />
   </component>
 </project>

@@ -1,24 +1,28 @@
-f1 = open("adventtestinput10", "r")
+f1 = open("adventinput10", "r")
 mylist = f1.read().split()
 print (mylist)
 cycle = 0
 x = 1
 addxCount = 0
 totalSum = 0
-while(cycle < 240):
+while(cycle <= 221):
     cycle += 1
     print("cycle = ", cycle,x,mylist[cycle - 1], mylist[cycle])
-
-    if cycle in (20, 60, 100, 140, 180, 220, 240):
+    if cycle in (20, 60, 100, 140, 180, 220):
         totalSum += x*cycle
         print("current total ", totalSum)
-
     if(mylist[cycle - 1] == "addx"):
         print("in here")
-        # print("adding = " + str(mylist[cycle]))
-        x += int(mylist[cycle])
         cycle += 1
+        # print("adding = " + str(mylist[cycle]))
+        if cycle in (20, 60, 100, 140, 180, 220):
+            totalSum += x * cycle
+            print("current total ", totalSum)
+        x += int(mylist[cycle - 1])
         print("cycle = ", cycle, x, mylist[cycle - 1], mylist[cycle])
+
+
+
 
 print("total sum = ", totalSum)
 print(mylist)
@@ -38,3 +42,4 @@ addx -5 --> 1st iteration x = 4 cycle = 4, 2nd iteration x = -1 (-5 + 4) cycle =
 # 3360 ( + 1800)
 # 6300 ( + 2940)
 # 9180 ( + 2880)
+## 12600

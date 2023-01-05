@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="Solved 10a.">
-      <change afterPath="$PROJECT_DIR$/2022/advent25.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/adventinput25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/adventtestinput25" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/advent25.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/advent25.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672758742894</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Solved 10a.">
+      <created>1672857714857</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672857714857</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

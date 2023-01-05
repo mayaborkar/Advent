@@ -3,12 +3,13 @@ def convertToSnafu(decimal):
     current = decimal
     while(current > 0):
         final += str(current % 5)
-        current = decimal//5
-
+        current = current//5
     print(final)
+    return final
 
 
-f1 = open("adventtestinput25", "r")
+
+f1 = open("adventinput25", "r")
 inputlist = f1.readlines()
 mylist = []
 current = ""

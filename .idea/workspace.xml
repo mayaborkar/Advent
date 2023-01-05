@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="Solved 10a.">
+    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="working on 25">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/advent25.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/advent25.py" afterDir="false" />
     </list>
@@ -358,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672857714857</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="working on 25">
+      <created>1672942851662</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1672942851662</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,6 +385,7 @@
     <MESSAGE value="Unversionsed files." />
     <MESSAGE value="Solved 8a." />
     <MESSAGE value="Solved 10a." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved 10a." />
+    <MESSAGE value="working on 25" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on 25" />
   </component>
 </project>

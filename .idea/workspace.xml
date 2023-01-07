@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="fixed convertToSnafu">
+    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="fixing convertToSnafu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/advent25.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/advent25.py" afterDir="false" />
     </list>
@@ -372,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672947282399</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fixing convertToSnafu">
+      <created>1673023843814</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1673023843814</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,6 +401,7 @@
     <MESSAGE value="Solved 10a." />
     <MESSAGE value="working on 25" />
     <MESSAGE value="fixed convertToSnafu" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed convertToSnafu" />
+    <MESSAGE value="fixing convertToSnafu" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing convertToSnafu" />
   </component>
 </project>

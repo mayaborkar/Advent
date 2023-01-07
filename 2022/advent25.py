@@ -2,8 +2,13 @@ def convertToSnafu(decimal):
     final = ""
     current = decimal
     while(current > 0):
-        final += str(current % 5)
-        current = current - 5 * current//5
+        if current - 5 == -1:
+            final += "-"
+        elif current - 5 == -2:
+            final += -2
+        else:
+            final += str(current % 5)
+        current = current//5
     print(final)
     return final
 

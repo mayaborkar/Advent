@@ -4,8 +4,9 @@ def convertToSnafu(decimal):
     while(current > 0):
         if current - 5 == -1:
             final += "-"
+            # add 1 to the next
         elif current - 5 == -2:
-            final += -2
+            final += "="
         else:
             final += str(current % 5)
         current = current//5

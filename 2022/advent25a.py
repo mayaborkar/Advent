@@ -10,7 +10,7 @@ for snafu in snafulist:
         i = length_s - j - 1
         if snafu[j] == '=':
             fuel += -2 * (5 ** i)
-            # print(snafu,snafu[j], j, i, fuel)
+
         elif snafu[j] == '-':
             fuel += -1 * (5 ** i)
             # print(snafu, snafu[j],j, i, fuel)

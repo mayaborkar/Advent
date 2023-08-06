@@ -1,5 +1,5 @@
 with open('adventinput8', 'r') as file:
-    r = open("adventinput10", "r")
+    r = file.read()
     r = r.splitlines()
 
 # Adding all trees that are on the edge of the grid to the visible trees variable

@@ -1,9 +1,17 @@
+def wordsToDigits(current):
+    for i in range(0, len(current)-2):
+        if (current[current[i]:current[i+2]] == "one"):
+            current[current[i]:current[i+2]].replace("one", "1")
+
+
 f1 = open("adventinput1", "r")
 mylist = f1.read().split('\n')
 
 digits = []
 currentDigits = []
 for i in range(0, len(mylist)):
+    wordsToDigits(mylist[i])
+    print(mylist[i])
     currentDigits = []
     for j in range(0, len(mylist[i])):
         if mylist[i][j].isdigit():

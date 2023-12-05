@@ -3,4 +3,4 @@ inputlist = f1.readlines()
 
 for i in range(0, len(inputlist)):
     # check if it is next to/diagonal to a viable symbol
-    # add all of the viable numbers *10^3 the place that they are in
+    # add all of the viable numbers *10^# the place that they are in

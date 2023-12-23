@@ -11,19 +11,23 @@ graph = {}
 for i in range(2, len(mylist)):
     node.append(mylist[i].split(" = "))
 
-print(node)
+
 
 for j in range(0, len(node)):
     # print(node[j][0], node[j][1])
-    graph[node[j][0]] = node[j][1]
 
+    graph[node[j][0]] = node[j][1].replace("(", "").replace(")", "").replace(" ", "").split(",")
+
+print(graph)
 stepCount = 0
 key = 'AAA'
+newPos = []
 
-while(key != 'ZZZ'):
+while(key.__ne__('ZZZ')):
     for i in range(0, len(instructions)):
+        print (graph[key])
         newPos = graph[key]
-        if (instructions[i] == "R"):
+        if (instructions[i].__eq__('R')):
             key = newPos[1]
         else:
             key = newPos[0]

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="advent 2023">
-      <change afterPath="$PROJECT_DIR$/2023/advent2b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/advent8a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/adventinput8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/advent8a.py" beforeDir="false" afterPath="$PROJECT_DIR$/2023/advent8a.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

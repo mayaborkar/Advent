@@ -17,6 +17,21 @@ for j in range(0, len(node)):
     # print(node[j][0], node[j][1])
     graph[node[j][0]] = node[j][1]
 
+stepCount = 0
+key = 'AAA'
+
+while(key != 'ZZZ'):
+    for i in range(0, len(instructions)):
+        newPos = graph[key]
+        if (instructions[i] == "R"):
+            key = newPos[1]
+        else:
+            key = newPos[0]
+        stepCount += 1
+        if key == 'ZZZ':
+            break
+
+print(stepCount)
 
 
 

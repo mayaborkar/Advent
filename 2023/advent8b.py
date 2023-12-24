@@ -2,8 +2,8 @@
 if the key of the last character is A start the process with it
 continue til both are ending with Z
 '''
-# def ghost_Node(graph, ANode):
-
+def ghost_Node(graph, ANode):
+    steps(graph, ANode)
 
 
 def steps(graph, ANode):

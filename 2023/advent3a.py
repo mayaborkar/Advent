@@ -58,9 +58,10 @@ def wholeNum(line, position, side):
         return(line[index:position])
     elif side.__eq__("R"):
         index = line[position:].find('.')
-        if(index == len(line)):
+        print(index)
+        if(index == -1):
             index = len(line)
-        return(line[position:index + 1])
+        return(line[position + 1: position + index])
 
 
 
@@ -70,7 +71,7 @@ inputlist = f1.read().split('\n')
 # print(inputlist)
 # check if it is next to/diagonal to a viable symbol
 # add all of the viable numbers *10^# the place that they are in
-print(wholeNum(inputlist[5], 7, "R"))
+print(wholeNum(inputlist[5], 6, "R"))
 
 #print(adjacent(inputlist))
 

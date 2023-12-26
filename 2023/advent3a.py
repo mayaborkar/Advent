@@ -67,6 +67,7 @@ def wholeNum(line, position, side, startEndArr):
         if [index, position] not in startEndArr:
             startEndArr.append([index, position])
             return(line[index:position], startEndArr)
+
     elif side.__eq__("R"):
         index = line[position:].find('.')
         print(index)
@@ -74,6 +75,7 @@ def wholeNum(line, position, side, startEndArr):
             index = len(line)
         if [position + 1, position + index] not in startEndArr:
             startEndArr.append([position + 1, position + index])
+            print ('test ',line[position + 1: position + index], startEndArr)
             return(line[position + 1: position + index], startEndArr)
 
     elif side.__eq__("D"):
@@ -96,7 +98,9 @@ inputlist = f1.read().split('\n')
 # print(inputlist)
 # check if it is next to/diagonal to a viable symbol
 # add all of the viable numbers *10^# the place that they are in
-# print(wholeNum(inputlist[5], 6, "R"))
+
+testarr = []
+print(wholeNum(inputlist[5], 6, "R",testarr))
 
 print(sum(adjacent(inputlist)))
 #print(adjacent(inputlist))

@@ -1,13 +1,37 @@
+def readFiles(fileName, s1):
+    f1 = open(fileName, "r")
+    mylist = [cx.split(' ') for cx in f1.read().split('\n')]
+    return findLocation(mylist, s1)
+
+
 def findLocation(arr, s1):
-    if (arr[0][1] <= s1 and s1 < arr[0][1] + arr[0][2]):
-        sx = s1 - arr[0][1] + arr[0][0]
-    elif (arr[1][1] <= s1 and s1 < arr[1][1] + arr[1][2]):
-        sx = s1 - arr[1][1] + arr[1][0]
-    else:
-        sx = s1
-    return sx
+    for c in arr:
+        if (int(c[1]) <= int(s1) and int(s1) < int(c[1]) + int(c[2])):
+            return (int(s1) - int(c[1]) + int(c[0]))
+    return int(s1)
 
 
 f1 = open("adventinput5", "r")
-mylist = f1.read().split('\n')
-print(mylist)
+seedList = f1.read().split(" ")
+#print(findLocation(mylist, 79))
+print(seedList)
+location = []
+for i in range(0, len(seedList)):
+    location.append(readFiles("htol",
+        readFiles("ttoh",
+        readFiles("ltot",
+        readFiles("wtol",
+        readFiles("ftow",
+        readFiles("stof",
+        readFiles("stos", seedList[i]))))))))
+
+print(min(location))
+'''
+print(readFiles("htol",
+        readFiles("ttoh",
+        readFiles("ltot",
+        readFiles("wtol",
+        readFiles("ftow",
+        readFiles("stof",
+        readFiles("stos", 79))))))))
+'''

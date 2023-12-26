@@ -26,12 +26,3 @@ for i in range(0, len(seedList)):
         readFiles("stos", seedList[i]))))))))
 
 print(min(location))
-'''
-print(readFiles("htol",
-        readFiles("ttoh",
-        readFiles("ltot",
-        readFiles("wtol",
-        readFiles("ftow",
-        readFiles("stof",
-        readFiles("stos", 79))))))))
-'''

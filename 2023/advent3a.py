@@ -1,4 +1,3 @@
-'''
 def symbolArray(input):
     specialIndex = []
     notAllowed = "0123456789."
@@ -17,6 +16,7 @@ def adjacent(input):
     print ('Special ', special)
     print ('input ', input)
     surroundingNums = []
+    startEnd = []
 
     for c in special:
         if (input[c[0] - 1][ c[1] - 1] in '0123456789'):
@@ -56,13 +56,26 @@ def wholeNum(line, position, side):
         index = line[:position].rfind('.')
         if(index == -1):
             index = 0
+        # startEndArr.append(index, position)
         return(line[index:position])
     elif side.__eq__("R"):
         index = line[position:].find('.')
         print(index)
         if(index == -1):
             index = len(line)
+        # startEndArr.append(position + 1, position + index)
         return(line[position + 1: position + index])
+
+    elif side.__eq__("D"):
+        indexl = line[position:].find('.')
+        indexr = line[:position].rfind('.')
+        if(indexl == -1):
+            indexl = 0
+        if(indexr == -1):
+            indexr = len(line)
+        # startEndArr.append(indexl, position + indexr)
+        return(line[indexl:position + indexr])
+
 
 
 
@@ -75,7 +88,3 @@ inputlist = f1.read().split('\n')
 print(wholeNum(inputlist[5], 6, "R"))
 
 #print(adjacent(inputlist))
-'''
-variable = 5000
-print(variable + 1000)
-print(variable * 2)

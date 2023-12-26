@@ -1,4 +1,4 @@
-
+'''
 def symbolArray(input):
     specialIndex = []
     notAllowed = "0123456789."
@@ -75,3 +75,7 @@ inputlist = f1.read().split('\n')
 print(wholeNum(inputlist[5], 6, "R"))
 
 #print(adjacent(inputlist))
+'''
+variable = 5000
+print(variable + 1000)
+print(variable * 2)

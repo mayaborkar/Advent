@@ -2,9 +2,10 @@ from math import comb
 
 def term(x, i, n):
     # thinking of it as a polynomial
-    # value * (number of value choose index --> the coefficient of the term) ^
-    # (number of values -1 - index --> alternates signs)
-    return x * comb(n, i) * (-1) ** (n - 1 - i)
+    # but this time its starting from the beginning
+    # value * (number of value choose index --> the coefficient of the next term) *
+    # -1 ^ starting place
+    return x * comb(n, i + 1) * (-1) ** (i)
 
 def polynomial(nums):
     n = len(nums)

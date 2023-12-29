@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="advent 9 2023">
-      <change afterPath="$PROJECT_DIR$/2023/advent11a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/adventinput11" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/advent9a.py" beforeDir="false" afterPath="$PROJECT_DIR$/2023/advent9a.py" afterDir="false" />
+    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="advent 11 2023">
+      <change beforePath="$PROJECT_DIR$/2023/advent11a.py" beforeDir="false" afterPath="$PROJECT_DIR$/2023/advent11a.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,20 +167,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669992889600</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Unversionsed files.">
-      <created>1672507435735</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1672507435735</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Solved 8a.">
-      <created>1672507458523</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1672507458523</updated>
     </task>
     <task id="LOCAL-00024" summary="Solved 8a.">
       <created>1672691648026</created>
@@ -514,7 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703782195703</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="advent 9 2023">
+      <created>1703820161595</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1703820161596</updated>
+    </task>
+    <task id="LOCAL-00072" summary="advent 11 2023">
+      <created>1703820197881</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1703820197881</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,6 +541,7 @@
     <MESSAGE value="advent 5a 2023" />
     <MESSAGE value="advent 5b 2023" />
     <MESSAGE value="advent 9 2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="advent 9 2023" />
+    <MESSAGE value="advent 11 2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="advent 11 2023" />
   </component>
 </project>

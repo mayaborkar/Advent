@@ -1,7 +1,6 @@
 def dist(currentCord, toCord):
     distArr = []
     for c in toCord:
-        print((currentCord[0] + toCord[c][0]) - (currentCord[1] - toCord[c][1]))
         # distArr.append((currentCord[0] + toCord[c][0]) - (currentCord[1] - toCord[c][1]))
 
 f1 = open("adventinput11", "r")

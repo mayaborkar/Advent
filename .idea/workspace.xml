@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="advent 11 2023">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2023/advent11a.py" beforeDir="false" afterPath="$PROJECT_DIR$/2023/advent11a.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,13 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669992889600</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Solved 8a.">
-      <created>1672691648026</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1672691648027</updated>
     </task>
     <task id="LOCAL-00025" summary="Solved 8a.">
       <created>1672717001686</created>
@@ -511,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703820197881</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="advent 11 2023">
+      <created>1703820449047</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1703820449047</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

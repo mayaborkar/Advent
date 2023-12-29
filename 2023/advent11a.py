@@ -1,11 +1,11 @@
 def dist(currentCord, toCord):
-    distArr = []
+
     for c in toCord:
-        # distArr.append((currentCord[0] + toCord[c][0]) - (currentCord[1] - toCord[c][1]))
+        distArr.append((currentCord[0] + toCord[0]) - (currentCord[1] - toCord[1]))
 
 f1 = open("adventinput11", "r")
 mylist = f1.read().split("\n")
-print(mylist)
+# print(mylist)
 galaxies = {}
 coordinates = []
 for i in range(0, len(mylist)):
@@ -13,11 +13,14 @@ for i in range(0, len(mylist)):
         if (mylist[i][j].__eq__("#")):
             coordinates.append((i, j))
 
+distArr = []
 for c in coordinates:
+    distArr = []
     for c_other in coordinates:
-
-        galaxies[c] = dist(c, c_other)
-
+        #print (c, '=', c_other)
+        if(abs(c[0] - c_other[0]) + abs(c[1] - c_other[1]).__ne__(0)):
+            distArr.append(abs(c[0] - c_other[0]) + abs(c[1] - c_other[1]))
+    galaxies[c] = min(distArr)
 
 print(galaxies)
 '''

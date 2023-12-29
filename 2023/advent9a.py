@@ -1,6 +1,7 @@
 from math import comb
 
 def term(x, i, n):
+    # binomial theorem/ poly interpolation
     # thinking of it as a polynomial
     # value * (number of value choose index --> the coefficient of the term) ^
     # (number of values -1 - index --> alternates signs)

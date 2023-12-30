@@ -1,27 +1,36 @@
-def dist(currentCord, toCord):
+def blankCols(column, index):
 
-    for c in toCord:
-        distArr.append((currentCord[0] + toCord[0]) - (currentCord[1] - toCord[1]))
+
 
 f1 = open("adventinput11", "r")
 mylist = f1.read().split("\n")
 # print(mylist)
 galaxies = {}
 coordinates = []
+xBlankArr = []
+yBlankArr = []
 for i in range(0, len(mylist)):
+    if (mylist[i].count(".") == len(mylist[i])):
+        # print("here")
+        xBlankArr.append(i)
     for j in range(0, len(mylist[i])):
+        if(blankCols(mylist[i], mylist[i][j])):
+            yBlankArr.append(j)
         if (mylist[i][j].__eq__("#")):
             coordinates.append((i, j))
-
 distArr = []
+
 for c in coordinates:
     distArr = []
+
     for c_other in coordinates:
         #print (c, '=', c_other)
         if(abs(c[0] - c_other[0]) + abs(c[1] - c_other[1]).__ne__(0)):
             distArr.append(abs(c[0] - c_other[0]) + abs(c[1] - c_other[1]))
     galaxies[c] = min(distArr)
 
+print(xBlankArr)
+print("y " + yBlankArr)
 print(galaxies)
 '''
 distance(x1-x2 + y1-y2)

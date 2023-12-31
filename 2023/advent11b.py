@@ -38,7 +38,7 @@ for c in coordinates:
             distance = abs(c[0] - c_other[0]) + abs(c[1] - c_other[1])
             expandRow = expand(xBlankArr, c[0], c_other[0])
             expandCol = expand(yBlankArr, c[1], c_other[1])
-            distance = distance + (2*expandRow) + (2*expandCol) - (expandRow+expandCol)
+            distance = distance + (1000000*expandRow) + (1000000*expandCol) - (expandRow+expandCol)
             totalDist += distance
 
 print(xBlankArr)

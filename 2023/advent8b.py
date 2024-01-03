@@ -2,6 +2,15 @@
 if the key of the last character is A start the process with it
 continue til both are ending with Z
 '''
+def find_LCM(num1, num2):
+    lcm = 0
+    for i in range(max(num1, num2), 1 + (num1 * num2)):
+        if i % num1 == i % num2 == 0:
+            lcm = i
+            break
+    return lcm
+
+
 def ghost_Node(graph, ANode):
     steps(graph, ANode)
 

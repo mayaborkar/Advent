@@ -11,8 +11,6 @@ graph = {}
 for i in range(2, len(mylist)):
     node.append(mylist[i].split(" = "))
 
-
-
 for j in range(0, len(node)):
     # print(node[j][0], node[j][1])
 
@@ -25,7 +23,7 @@ newPos = []
 
 while(key.__ne__('ZZZ')):
     for i in range(0, len(instructions)):
-        print (graph[key])
+        # print (graph[key])
         newPos = graph[key]
         if (instructions[i].__eq__('R')):
             key = newPos[1]
@@ -34,8 +32,11 @@ while(key.__ne__('ZZZ')):
         stepCount += 1
         if key == 'ZZZ':
             break
+    if (key.__eq__('ZZZ')):
+        print(stepCount)
+        break
 
-print(stepCount)
+
 
 
 
@@ -64,9 +65,3 @@ dictionary
 4. pop()
 5. del()
 '''
-
-
-
-
-
-

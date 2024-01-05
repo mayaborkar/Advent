@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="advent 1b 2023">
+    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="advent 8b 2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/advent8a.py" beforeDir="false" afterPath="$PROJECT_DIR$/2023/advent8a.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2023/advent8b.py" beforeDir="false" afterPath="$PROJECT_DIR$/2023/advent8b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/adventinput8" beforeDir="false" afterPath="$PROJECT_DIR$/2023/adventinput8" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,27 +47,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.advent8b">
-    <configuration name="advent11a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="advent" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2023" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2023/advent11a.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="advent11b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +110,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="advent8a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2023" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2023/advent8a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="advent8b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.advent8b" />
+        <item itemvalue="Python.advent8a" />
         <item itemvalue="Python.advent1b" />
         <item itemvalue="Python.advent11b" />
         <item itemvalue="Python.advent4b" />
-        <item itemvalue="Python.advent11a" />
       </list>
     </recent_temporary>
   </component>
@@ -168,13 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669992889600</updated>
-    </task>
-    <task id="LOCAL-00032" summary="fixing convertToSnafu">
-      <created>1673206684924</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1673206684924</updated>
     </task>
     <task id="LOCAL-00033" summary="fixing convertToSnafu">
       <created>1680455601140</created>
@@ -512,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704168185222</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="advent 8b 2023">
+      <created>1704299927902</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1704299927902</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,6 +549,7 @@
     <MESSAGE value="advent 11b 2023" />
     <MESSAGE value="starting advent 1b 2023" />
     <MESSAGE value="advent 1b 2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="advent 1b 2023" />
+    <MESSAGE value="advent 8b 2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="advent 8b 2023" />
   </component>
 </project>

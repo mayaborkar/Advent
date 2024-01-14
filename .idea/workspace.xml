@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="advent 8b 2023">
+    <list default="true" id="05a80766-f67c-4263-98c2-e914a2049b4c" name="Changes" comment="advent 5b 2023">
+      <change afterPath="$PROJECT_DIR$/2023/advent10a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/adventinput10" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2023/advent5b.py" beforeDir="false" afterPath="$PROJECT_DIR$/2023/advent5b.py" afterDir="false" />
     </list>
@@ -33,7 +35,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mayaborkar/PycharmProjects/advent/2022&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/mayaborkar/PycharmProjects/advent&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -44,8 +46,8 @@
       <recent name="$PROJECT_DIR$/2021" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.advent5b">
-    <configuration name="advent11b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.advent10a">
+    <configuration name="advent10a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,7 +59,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2023/advent11b.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2023/advent10a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.advent10a" />
         <item itemvalue="Python.advent5b" />
         <item itemvalue="Python.advent8b" />
         <item itemvalue="Python.advent8a" />
         <item itemvalue="Python.advent1b" />
-        <item itemvalue="Python.advent11b" />
       </list>
     </recent_temporary>
   </component>
@@ -168,13 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669992889600</updated>
-    </task>
-    <task id="LOCAL-00034" summary="fixing convertToSnafu">
-      <created>1685120026462</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1685120026463</updated>
     </task>
     <task id="LOCAL-00035" summary="fixing convertToSnafu">
       <created>1686168243256</created>
@@ -512,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704416611150</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="advent 5b 2023">
+      <created>1704480939183</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1704480939183</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +542,6 @@
     <MESSAGE value="advent 3 2023" />
     <MESSAGE value="starting advent 5a 2023" />
     <MESSAGE value="advent 5a 2023" />
-    <MESSAGE value="advent 5b 2023" />
     <MESSAGE value="advent 9 2023" />
     <MESSAGE value="advent 11 2023" />
     <MESSAGE value="advent 4b 2023" />
@@ -548,6 +549,7 @@
     <MESSAGE value="starting advent 1b 2023" />
     <MESSAGE value="advent 1b 2023" />
     <MESSAGE value="advent 8b 2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="advent 8b 2023" />
+    <MESSAGE value="advent 5b 2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="advent 5b 2023" />
   </component>
 </project>

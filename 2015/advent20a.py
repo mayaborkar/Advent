@@ -12,7 +12,7 @@ def find_lowest_house(target):
             return house_number
 
     return None
-
+ 
 # Puzzle input
 target = 33100000
 result = find_lowest_house(target)

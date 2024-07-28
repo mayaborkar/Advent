@@ -1,5 +1,6 @@
 def find_lowest_house(target):
-    limit = target // 11  # A rough estimate to limit the search space
+    # Estimate an upper limit to the search space
+    limit = target // 11
     presents = [0] * (limit + 1)
 
     for elf in range(1, limit + 1):
@@ -18,6 +19,6 @@ def find_lowest_house(target):
     return None
 
 # Puzzle input
-target = 33100000
+target = 33100000  # Replace with your puzzle input
 result = find_lowest_house(target)
-print("The lowest house number to receive at least {target} presents is: {result}")
+print(f"The lowest house number to receive at least {target} presents is: {result}")

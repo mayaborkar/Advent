@@ -1,0 +1,1 @@
+f1 = open("2025/adventinput3", "r")

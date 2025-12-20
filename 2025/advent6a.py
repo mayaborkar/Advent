@@ -11,6 +11,7 @@ for row in mylist:
     while len(row) < maxLen:
         row.append(' ')
 
+
 total = 0
 col = 0
 
@@ -68,3 +69,5 @@ while col < maxLen:
     total += result
 
 print(total)
+
+# 5977759036837

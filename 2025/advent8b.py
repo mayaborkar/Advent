@@ -1,6 +1,5 @@
 import math
 
-# Read input
 points = []
 with open("adventinput8", "r") as f:
     for line in f:
